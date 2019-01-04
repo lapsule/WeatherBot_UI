@@ -2,34 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Demo for 天气预报查询机器人</title>
+    <title>Demo for 脉满分</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async
-            src="https://www.googletagmanager.com/gtag/js?id=UA-105150423-3"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-
-        gtag('js', new Date());
-
-        gtag('config', 'UA-105150423-3');
-    </script>
-
-    <!-- /Global site tag (gtag.js) - Google Analytics -->
-
 
     <!-- markdown_support -->
     <script type="text/x-mathjax-config">
           MathJax.Hub.Config({"extensions":["tex2jax.js"],"jax":["input/TeX","output/HTML-CSS"],"messageStyle":"none","tex2jax":{"processEnvironments":false,"processEscapes":true,"inlineMath":[["$","$"],["\\(","\\)"]],"displayMath":[["$$","$$"],["\\[","\\]"]]},"TeX":{"extensions":["AMSmath.js","AMSsymbols.js","noErrors.js","noUndefined.js"]},"HTML-CSS":{"availableFonts":["TeX"]}});
-
-
-
 
     </script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML'
@@ -756,11 +735,7 @@
 <div class="mume markdown-preview   ">
     <h1 class="mume-header"
         id="demo-for-%E5%A4%A9%E6%B0%94%E9%A2%84%E6%8A%A5%E6%9F%A5%E8%AF%A2%E6%9C%BA%E5%99%A8%E4%BA%BA">
-        Demo for 天气预报查询机器人</h1>
-
-    <h2 class="mume-header" id="%E5%8A%9F%E8%83%BD">源代码地址</h2>
-
-    <a href="https://github.com/howl-anderson/WeatherBot">https://github.com/howl-anderson/WeatherBot</a>
+        Demo for 脉满分</h1>
 
     <h2 class="mume-header" id="%E5%8A%9F%E8%83%BD">功能</h2>
 
@@ -790,11 +765,8 @@
     <p>见页面右下方的聊天widget <img
             src="chat_button.png"
             alt="chat_button" style="width:40px;height:40px;">，点击即可使用</p>
-    <h2 class="mume-header" id="%E4%BD%9C%E8%80%85">作者</h2>
-
-    <p>Xiaoquan Kong @ <a href="https://github.com/howl-anderson">https://github.com/howl-anderson</a>
-    </p>
-    <h2 class="mume-header" id="copyrights">Copyrights</h2>
+    
+    <h2 class="mume-header" id="copyrights">Icon 版权声明</h2>
 
     <div>Robot icon in web-chat interface made by <a
             href="https://www.flaticon.com/authors/good-ware" title="Robotic">Robotic</a>
@@ -816,8 +788,8 @@
         interval: 1000, // 1000 ms between each message
         customData: {"userId": "123"}, // arbitrary custom data. Stay minimal as this will be added to the socket
         socketUrl: "{{ server_url }}",
-        title: "天气预报查询",
-        subtitle: "Demo",
+        title: "脉满分",
+        subtitle: "满分职场从脉满分开始",
         profileAvatar: "robotic.png",
         showCloseButton: true,
         fullScreenMode: false
